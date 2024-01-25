@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "doJkHgR8d2p/vFhKoHkgReSamY3x4M0uyIK4tQyL6qN2JJoI1KDzZ5EX4QPp+ZPfP8To60+glp1u8zDtLjRcgQ==",
+  "dgSpecHash": "nlF/9IhSM+FsLjtOtjokVqPUgK5QeDeN7qtOGIHtjo2aQ0xUr8Et/SObhKO2HqvRWp3mPZwkKxJJD7HJ5jz0ug==",
   "success": true,
   "projectFilePath": "/Users/mac/Desktop/netConsoleTest/netConsoleTest.csproj",
   "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/dapper/2.1.28/dapper.2.1.28.nupkg.sha512",
     "/Users/mac/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

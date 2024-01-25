@@ -20,3 +20,4 @@
 /Users/mac/Desktop/netConsoleTest/obj/Debug/net7.0/netConsoleTest.pdb
 /Users/mac/Desktop/netConsoleTest/obj/Debug/net7.0/netConsoleTest.genruntimeconfig.cache
 /Users/mac/Desktop/netConsoleTest/obj/Debug/net7.0/ref/netConsoleTest.dll
+/Users/mac/Desktop/netConsoleTest/bin/Debug/net7.0/Dapper.dll

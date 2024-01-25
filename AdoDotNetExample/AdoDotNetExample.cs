@@ -117,7 +117,7 @@ namespace netConsoleTest.AdoDotNetExample
 
             string message =  result > 0 ? "saving successful" : "saving faild";
 
-            System.Console.WriteLine(message);
+            Console.WriteLine(message);
         }
     
         private static void Update (int id ,string title , string author , string content) {

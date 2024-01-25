@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 using netConsoleTest.AdoDotNetExample;
+using netConsoleTest.DapperTests;
 Console.WriteLine("Hello, World!");
 // SqlConnectionStringBuilder sqlConnectionStringBuilder =  new SqlConnectionStringBuilder();
 // sqlConnectionStringBuilder.DataSource = ".";
@@ -8,8 +9,11 @@ Console.WriteLine("Hello, World!");
 // sqlConnectionStringBuilder.UserID = "sa";
 // sqlConnectionStringBuilder.Password ="Asdffdsa4580";
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+// AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 
-adoDotNetExample.Run();
+// adoDotNetExample.Run();
+
+DapperTest dapperTest = new DapperTest();
+dapperTest.Run();
 
 // Console.WriteLine()

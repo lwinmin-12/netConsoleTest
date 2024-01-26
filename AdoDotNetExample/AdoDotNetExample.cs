@@ -174,7 +174,7 @@ namespace netConsoleTest.AdoDotNetExample
 
             string message =  result > 0 ? "delete successful" : "delete faild";
 
-            System.Console.WriteLine(message);
+            Console.WriteLine(message);
         }
     
     

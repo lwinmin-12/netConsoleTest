@@ -2,6 +2,7 @@
 using System.Data.SqlClient;
 using netConsoleTest.AdoDotNetExample;
 using netConsoleTest.DapperTests;
+using netConsoleTest.EFCoreExamples;
 Console.WriteLine("Hello, World!");
 // SqlConnectionStringBuilder sqlConnectionStringBuilder =  new SqlConnectionStringBuilder();
 // sqlConnectionStringBuilder.DataSource = ".";
@@ -13,7 +14,15 @@ Console.WriteLine("Hello, World!");
 
 // adoDotNetExample.Run();
 
-DapperTest dapperTest = new DapperTest();
-dapperTest.Run();
+// DapperTest dapperTest = new DapperTest();
+// dapperTest.Run();
+
+
+EFCoreTest eFCoreTest = new EFCoreTest();
+// eFCoreTest.Read();
+
+// eFCoreTest.Edit(20);
+
+// eFCoreTest.Create(20, "gg", "gg", "gg");
 
 // Console.WriteLine()

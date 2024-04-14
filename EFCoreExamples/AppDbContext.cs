@@ -8,16 +8,17 @@ namespace netConsoleTest.EFCoreExamples
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-             SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+            SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
             {
                 DataSource = ".",
                 InitialCatalog = "netConsole",
                 UserID = "sa",
-                Password = "Asdffdsa4580"
+                Password = "Asdffdsa4580",
+                TrustServerCertificate = true
             };
             optionsBuilder.UseSqlServer(_sqlConnectionStringBuilder.ConnectionString);
         }
-            public DbSet<BlogDataModel> Blog {set ; get;}
+        public DbSet<BlogDataModel> Blog { set; get; }
 
     }
 }

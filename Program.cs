@@ -3,6 +3,7 @@ using System.Data.SqlClient;
 using netConsoleTest.AdoDotNetExample;
 using netConsoleTest.DapperTests;
 using netConsoleTest.EFCoreExamples;
+using netConsoleTest.HttpClientExamples;
 Console.WriteLine("Hello, World!");
 // SqlConnectionStringBuilder sqlConnectionStringBuilder =  new SqlConnectionStringBuilder();
 // sqlConnectionStringBuilder.DataSource = ".";
@@ -18,7 +19,7 @@ Console.WriteLine("Hello, World!");
 // dapperTest.Run();
 
 
-EFCoreTest eFCoreTest = new EFCoreTest();
+// EFCoreTest eFCoreTest = new EFCoreTest();
 // eFCoreTest.Read();
 
 // eFCoreTest.Edit(20);
@@ -26,3 +27,7 @@ EFCoreTest eFCoreTest = new EFCoreTest();
 // eFCoreTest.Create(20, "gg", "gg", "gg");
 
 // Console.WriteLine()
+
+HttpClientExample httpClientExample = new HttpClientExample();
+
+await httpClientExample.Run();

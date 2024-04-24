@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iuGcjLXcSnbE+H9Tl6iM/gn0KrZOey46ZfyhcE8S0q09PkN2vLaYyPJd2nUGE23ohmikrZ3hB2T6EZAQ/Rct+A==",
+  "dgSpecHash": "fuDozdovZTWkV3I0IjNzy32ui+/cvJQh+ucgvtE9JH+Cpey+vosRIDCfNvv5h/lHQ1qvgmrwynZrtZ0K5Sw8fQ==",
   "success": true,
   "projectFilePath": "/Users/mac/Desktop/netConsoleTest/netConsoleTest.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "/Users/mac/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/mac/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/mac/.nuget/packages/restsharp/110.2.1-alpha.0.20/restsharp.110.2.1-alpha.0.20.nupkg.sha512",
     "/Users/mac/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

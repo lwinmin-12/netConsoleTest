@@ -4,6 +4,8 @@ using netConsoleTest.AdoDotNetExample;
 using netConsoleTest.DapperTests;
 using netConsoleTest.EFCoreExamples;
 using netConsoleTest.HttpClientExamples;
+using netConsoleTest.RestClientExamples;
+using RestSharp;
 Console.WriteLine("Hello, World!");
 // SqlConnectionStringBuilder sqlConnectionStringBuilder =  new SqlConnectionStringBuilder();
 // sqlConnectionStringBuilder.DataSource = ".";
@@ -28,6 +30,10 @@ Console.WriteLine("Hello, World!");
 
 // Console.WriteLine()
 
-HttpClientExample httpClientExample = new HttpClientExample();
+// HttpClientExample httpClientExample = new HttpClientExample();
 
-await httpClientExample.Run();
+// await httpClientExample.Run();
+
+RestClientExample restClientExample= new RestClientExample();
+
+await restClientExample.Run();

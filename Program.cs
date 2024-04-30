@@ -4,6 +4,7 @@ using netConsoleTest.AdoDotNetExample;
 using netConsoleTest.DapperTests;
 using netConsoleTest.EFCoreExamples;
 using netConsoleTest.HttpClientExamples;
+using netConsoleTest.RefitExamples;
 using netConsoleTest.RestClientExamples;
 using RestSharp;
 Console.WriteLine("Hello, World!");
@@ -34,6 +35,10 @@ Console.WriteLine("Hello, World!");
 
 // await httpClientExample.Run();
 
-RestClientExample restClientExample= new RestClientExample();
+// RestClientExample restClientExample= new RestClientExample();
 
-await restClientExample.Run();
+// await restClientExample.Run();
+
+RefitExample refitExample = new RefitExample();
+
+await refitExample.Run();
